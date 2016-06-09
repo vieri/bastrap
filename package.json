@@ -1,14 +1,14 @@
 {
-  "name": "master-bootstrap",
-  "version": "1.2.2",
-  "description": "Bootstrap 3 template for Joomla!",
+  "name": "bastrap",
+  "version": "1.0.0",
+  "description": "Basic template with Bootstrap 3",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/gsuez/master-bootstrap-3.git"
+    "url": "git://github.com/vieri/bastrap.git"
   },
   "keywords": [
     "joomla",
@@ -17,14 +17,14 @@
     "bootstrap3",
     "bootstrap"
   ],
-  "author": "Gonzalo Suez <info@gsuez.cl>",
+  "author": "Jordi Sorts <info@websdefutbol.com>",
   "license": "GPL-2.0",
   "bugs": {
-    "url": "https://github.com/gsuez/master-bootstrap-3/issues"
+    "url": "https://github.com/vieri/bastrap/issues"
   },
-  "homepage": "https://github.com/gsuez/master-bootstrap-3#readme",
+  "homepage": "https://github.com/vieri/bastrap#readme",
   "devDependencies": {
-    "beepbeep": "^1.2.0",
+    "beepbeep": "^1.0.0",
     "browser-sync": "^2.11.2",
     "del": "^2.2.0",
     "fs": "0.0.2",
