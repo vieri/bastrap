@@ -1,6 +1,0 @@
-{
-	"wwwDir"           : "/Users/jordi.sorts/Sites/serverdev/html/semab",
-	"browserConfig" : {
-		"proxy" : "server.dev/semab"
-	}
-}
