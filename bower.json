@@ -1,0 +1,22 @@
+{
+  "name": "semab",
+  "description": "Plantilla per semab",
+  "main": "index.js",
+  "authors": [
+    "Jordi Sorts"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/bower",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "^4.6.3",
+    "bootstrap-sass": "^3.3.6"
+  }
+}

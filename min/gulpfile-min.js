@@ -1,0 +1,1 @@
+var gulp=require("gulp"),browserSync=require("browser-sync"),reload=browserSync.reload;gulp.task("watch",["connect"],function(){}),gulp.task("connect",function(){browserSync({proxy:"server.dev/semab"})});
