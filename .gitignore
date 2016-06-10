@@ -1,0 +1,3 @@
+# Arxius que no s'han de pujar el Github
+node_modules/*
+
