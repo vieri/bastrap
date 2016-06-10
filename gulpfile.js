@@ -1,5 +1,5 @@
-var gulp = require('gulp');
-var sass = require('gulp-sass');
+var gulp 	= require('gulp');
+var sass 	= require('gulp-sass');
 
 gulp.task('sass', function() {
 	return gulp.src('./sass/**/*.scss')
@@ -7,11 +7,7 @@ gulp.task('sass', function() {
 		.pipe(gulp.dest('./css'));
 });
 
-gulp.task('sass:watch', function() {
+gulp.task('treball', function() {
 	gulp.watch('./sass/**/*.scss', ['sass']);
-});
-
-gulp.task('default', function() {
-	
 });
 
