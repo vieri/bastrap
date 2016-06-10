@@ -1,8 +1,10 @@
 {
   "name": "bastrap",
   "version": "1.0.0",
-  "description": "<h1>Plantilla per Joomla 3.x basada amb Bootstrap 3</h1>",
+  "description": "<h3>Plantilla per Joomla 3.x basica amb Bootstrap 3</h3>",
   "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,9 +17,5 @@
   "bugs": {
     "url": "https://github.com/vieri/bastrap/issues"
   },
-  "homepage": "https://github.com/vieri/bastrap#readme",
-  "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-sass": "^2.3.1"
-  }
+  "homepage": "https://github.com/vieri/bastrap#readme"
 }
