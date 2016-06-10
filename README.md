@@ -1,3 +1,3 @@
-# plt_bootstrap3
+# Bastrap 
 
-<h1>Plantilla per Joomla 3.x basada amb Bootstrap 3</h1>
+<h3>Plantilla per Joomla 3.x basica amb Bootstrap 3</h3>
