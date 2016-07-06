@@ -22,11 +22,8 @@ JHtml::_('behavior.caption');
 ?>
 <div class="item-page<?php echo $this->pageclass_sfx; ?>" itemscope itemtype="https://schema.org/Article">
 	<meta itemprop="inLanguage" content="<?php echo ($this->item->language === '*') ? JFactory::getConfig()->get('language') : $this->item->language; ?>" />
-	<?php if ($this->params->get('show_page_heading')) : ?>
-	<div class="page-header">
-		<h1> <?php echo $this->escape($this->params->get('page_heading')); ?> </h1>
-	</div>
-	<?php endif;
+	
+	<?php 
 	if (!empty($this->item->pagination) && $this->item->pagination && !$this->item->paginationposition && $this->item->paginationrelative)
 	{
 		echo $this->item->pagination;
@@ -45,6 +42,7 @@ JHtml::_('behavior.caption');
 	<?php endif; ?>
 	<?php if ($params->get('show_title') || $params->get('show_author')) : ?>
 	<div class="page-header">
+		<button class="btn btn-primary" onclick="window.history.back()"><i class="fa fa-arrow-left"></i> Tornar</button>
 		<?php if ($params->get('show_title')) : ?>
 			<h2 itemprop="name">
 				<?php echo $this->escape($this->item->title); ?>

@@ -20,8 +20,8 @@ $info    = $params->get('info_block_position', 0);
 	<div class="system-unpublished">
 <?php endif; ?>
 
-<span class="text-center"><?php echo JLayoutHelper::render('joomla.content.blog_style_default_item_title', $this->item); ?></span>
-
+<!-- <span class="text-center"><?php echo JLayoutHelper::render('joomla.content.blog_style_default_item_title', $this->item); ?></span> -->
+<br>
 
 <!-- <?php if ($canEdit || $params->get('show_print_icon') || $params->get('show_email_icon')) : ?>
 	<?php echo JLayoutHelper::render('joomla.content.icons', array('params' => $params, 'item' => $this->item, 'print' => false)); ?>
